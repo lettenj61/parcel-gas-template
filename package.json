@@ -1,0 +1,21 @@
+{
+  "name": "@githubreponame/parcel-gas-template",
+  "version": "NO_VERSION",
+  "description": "",
+  "scripts": {
+    "build": "parcel build --target gas"
+  },
+  "targets": {
+    "gas": {
+      "optimize": false,
+      "source": [],
+      "sourceMap": false
+    }
+  },
+  "keywords": [],
+  "author": "Your Name <yourname@example.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  }
+}
